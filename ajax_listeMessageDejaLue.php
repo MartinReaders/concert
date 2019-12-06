@@ -29,7 +29,8 @@ foreach ($liste as $msg){ //O, parcours le result de la recherhe messages par l'
         "id"=>$msg->getId(),
         "expediteur"=>$msg->getExpediteur()->getNom(),
         "texte"=>$msg->getTexte(),
-        "date" =>$msg->getDate()
+        "date" =>$msg->getDate(),
+        "dqds" =>$msg->getDate()
     ];
 
 }
